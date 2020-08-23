@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Constant_Malloc.dir/SimpleMemoryAllocator.cpp.o CMakeFiles/Constant_Malloc.dir/main.cpp.o  -o Constant_Malloc 

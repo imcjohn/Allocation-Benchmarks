@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/imcjohn/CLionProjects/Constant-Malloc/MemoryAllocator.hpp
+
+/home/imcjohn/CLionProjects/Constant-Malloc/SimpleMemoryAllocator.hpp
+MemoryAllocator.hpp
+/home/imcjohn/CLionProjects/Constant-Malloc/MemoryAllocator.hpp
+
+/home/imcjohn/CLionProjects/Constant-Malloc/main.cpp
+iostream
+-
+chrono
+-
+MemoryAllocator.hpp
+/home/imcjohn/CLionProjects/Constant-Malloc/MemoryAllocator.hpp
+SimpleMemoryAllocator.hpp
+/home/imcjohn/CLionProjects/Constant-Malloc/SimpleMemoryAllocator.hpp
+
