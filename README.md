@@ -8,4 +8,5 @@ The purpose of this repository is to provide an example of how memory allocation
 ### File Descriptions
 - main.cpp -> Benchmarking tool
 - SimpleMemoryAllocator[.cpp/.hpp] -> Super-simple example of a memory allocator that just is a wrapper around new and delete, great for benchmarking implementations
+- ConcurrentMemoryAllocator[.cpp/hpp] -> Example of using a dispatcher thread to handle the actual allocation, and populating queues. More effective than simple for loads >=512kb or so
 - MemoryAllocator[.hpp] -> Abstract class/template for all future memory allocators
