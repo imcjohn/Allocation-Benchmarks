@@ -143,6 +143,33 @@ Constant_Malloc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Constant_Malloc.dir/build.make CMakeFiles/Constant_Malloc.dir/build
 .PHONY : Constant_Malloc/fast
 
+ConcurrentMemoryAllocator.o: ConcurrentMemoryAllocator.cpp.o
+
+.PHONY : ConcurrentMemoryAllocator.o
+
+# target to build an object file
+ConcurrentMemoryAllocator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Constant_Malloc.dir/build.make CMakeFiles/Constant_Malloc.dir/ConcurrentMemoryAllocator.cpp.o
+.PHONY : ConcurrentMemoryAllocator.cpp.o
+
+ConcurrentMemoryAllocator.i: ConcurrentMemoryAllocator.cpp.i
+
+.PHONY : ConcurrentMemoryAllocator.i
+
+# target to preprocess a source file
+ConcurrentMemoryAllocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Constant_Malloc.dir/build.make CMakeFiles/Constant_Malloc.dir/ConcurrentMemoryAllocator.cpp.i
+.PHONY : ConcurrentMemoryAllocator.cpp.i
+
+ConcurrentMemoryAllocator.s: ConcurrentMemoryAllocator.cpp.s
+
+.PHONY : ConcurrentMemoryAllocator.s
+
+# target to generate assembly for a file
+ConcurrentMemoryAllocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Constant_Malloc.dir/build.make CMakeFiles/Constant_Malloc.dir/ConcurrentMemoryAllocator.cpp.s
+.PHONY : ConcurrentMemoryAllocator.cpp.s
+
 SimpleMemoryAllocator.o: SimpleMemoryAllocator.cpp.o
 
 .PHONY : SimpleMemoryAllocator.o
@@ -206,6 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Constant_Malloc"
+	@echo "... ConcurrentMemoryAllocator.o"
+	@echo "... ConcurrentMemoryAllocator.i"
+	@echo "... ConcurrentMemoryAllocator.s"
 	@echo "... SimpleMemoryAllocator.o"
 	@echo "... SimpleMemoryAllocator.i"
 	@echo "... SimpleMemoryAllocator.s"

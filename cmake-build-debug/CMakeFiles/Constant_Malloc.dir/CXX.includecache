@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/imcjohn/CLionProjects/Constant-Malloc/ConcurrentMemoryAllocator.hpp
+boost/thread/thread.hpp
+-
+boost/lockfree/queue.hpp
+-
+boost/atomic.hpp
+-
+MemoryAllocator.hpp
+/home/imcjohn/CLionProjects/Constant-Malloc/MemoryAllocator.hpp
+
 /home/imcjohn/CLionProjects/Constant-Malloc/MemoryAllocator.hpp
 
 /home/imcjohn/CLionProjects/Constant-Malloc/SimpleMemoryAllocator.hpp
@@ -17,8 +27,14 @@ iostream
 -
 chrono
 -
+unistd.h
+-
+thread
+-
 MemoryAllocator.hpp
 /home/imcjohn/CLionProjects/Constant-Malloc/MemoryAllocator.hpp
 SimpleMemoryAllocator.hpp
 /home/imcjohn/CLionProjects/Constant-Malloc/SimpleMemoryAllocator.hpp
+ConcurrentMemoryAllocator.hpp
+/home/imcjohn/CLionProjects/Constant-Malloc/ConcurrentMemoryAllocator.hpp
 

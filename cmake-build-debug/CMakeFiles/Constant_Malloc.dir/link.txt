@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Constant_Malloc.dir/SimpleMemoryAllocator.cpp.o CMakeFiles/Constant_Malloc.dir/main.cpp.o  -o Constant_Malloc 
+/usr/bin/c++  -g   CMakeFiles/Constant_Malloc.dir/SimpleMemoryAllocator.cpp.o CMakeFiles/Constant_Malloc.dir/ConcurrentMemoryAllocator.cpp.o CMakeFiles/Constant_Malloc.dir/main.cpp.o  -o Constant_Malloc  /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0 -lpthread 
