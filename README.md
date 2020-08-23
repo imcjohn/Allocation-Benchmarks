@@ -5,6 +5,9 @@ The purpose of this repository is to provide an example of how memory allocation
 #### Medium (1mb) chunk size
 - SimpleMemoryAllocator -> 0.31 packets/us
 - ConcurrentMemoryAllocator -> 0.78 packets/us
+#### Small (1kb) chunk size
+- SimpleMemoryAllocator -> 1.77 packets/us
+- ConcurrentMemoryAllocator -> 1.33 packets/us
 ### File Descriptions
 - main.cpp -> Benchmarking tool
 - SimpleMemoryAllocator[.cpp/.hpp] -> Super-simple example of a memory allocator that just is a wrapper around new and delete, great for benchmarking implementations

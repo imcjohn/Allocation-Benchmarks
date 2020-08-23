@@ -51,8 +51,8 @@ void run_tests(MemoryAllocator *m){
 
 int main() {
     cout << "Benchmarks initializing" << endl;
-    MemoryAllocator *m = new ConcurrentMemoryAllocator();
-    //MemoryAllocator *m = new SimpleMemoryAllocator();
+    //MemoryAllocator *m = new ConcurrentMemoryAllocator();
+    MemoryAllocator *m = new SimpleMemoryAllocator();
     m->run();
     sleep(5);
     run_tests(m);
